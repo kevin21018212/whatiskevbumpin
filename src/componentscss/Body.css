@@ -1,0 +1,87 @@
+
+.Body{
+    
+ 
+    height: 150vh;
+  
+    display: flex;
+   flex-direction: row;
+    
+   
+  }
+  
+  .Sidebar { 
+    flex-grow: 2;
+    width: 20%;
+    background-color: red;
+   
+ }
+  .Body-Main { 
+    width:80%;
+    background-color: darkblue;
+    flex-direction: row;
+    flex-grow: 8;
+    
+ }
+ .Body-Main-Top {  display: flex; height:50vh;}
+ .Body-Main-Top-Content { flex-grow: 3; background-color: olive; }
+ .Body-Main-Top-Cover { flex-grow: 2; background-color: palegreen; }
+
+
+ .Body-Main-Middle{ flex-grow: 1; display: flex;height:50vh;}
+ .Body-Main-Middle-CoverRight{ 
+  flex-grow: 1; 
+  width: 25%;
+   background-color: lightblue;
+   display: flex;
+   
+ 
+   
+}
+ .Body-Main-Middle-CoverMiddle{
+   flex-grow: 1;
+   width: 25%;
+    background-color:  coral;
+    display: flex; 
+  }
+
+ .Body-Main-Middle-CoverLeft{ 
+  flex-grow: 1;
+  width: 25%;
+   background-color: blue;
+   display: flex;
+ }
+
+ .middlestuff p{
+  
+  padding-bottom: 5%;
+  padding-left: 5%;
+
+  font-family: "Spotify";
+  font-weight:bold;
+  position: absolute; 
+  left: 0;
+  bottom: 0;
+  overflow-y: visible;
+  padding-right:5vw;
+  background: -webkit-linear-gradient(45deg, #09009f, #32d390 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+ }
+
+.middlestuff img{
+  display:block;
+ 
+   height:100%;
+ }
+ 
+ .middlestuff{
+  position: relative;
+  max-height:50vh;
+ }
+ 
+ .Body-Main-Bottom{   display: flex;height:50vh;}
+ .Body-Main-Bottom-Content{ flex-grow:2; background-color: lightgoldenrodyellow; display: flex;}
+ .Body-Main-Bottom-Cover{ flex-grow: 3; background-color: orange; display: flex;}
+
