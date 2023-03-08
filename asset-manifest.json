@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbc99604.css",
-    "main.js": "/static/js/main.6b8e6e9a.js",
-    "static/js/787.f6554922.chunk.js": "/static/js/787.f6554922.chunk.js",
-    "static/media/GothamMedium.ttf": "/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
-    "static/media/GothamBold.ttf": "/static/media/GothamBold.108854bb27dee2dce854.ttf",
-    "index.html": "/index.html",
-    "main.fbc99604.css.map": "/static/css/main.fbc99604.css.map",
-    "main.6b8e6e9a.js.map": "/static/js/main.6b8e6e9a.js.map",
-    "787.f6554922.chunk.js.map": "/static/js/787.f6554922.chunk.js.map"
+    "main.css": "/whatiskevbumpin/static/css/main.24cb9c61.css",
+    "main.js": "/whatiskevbumpin/static/js/main.40e52bca.js",
+    "static/js/787.f6554922.chunk.js": "/whatiskevbumpin/static/js/787.f6554922.chunk.js",
+    "static/media/GothamMedium.ttf": "/whatiskevbumpin/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
+    "static/media/GothamBold.ttf": "/whatiskevbumpin/static/media/GothamBold.108854bb27dee2dce854.ttf",
+    "index.html": "/whatiskevbumpin/index.html",
+    "main.24cb9c61.css.map": "/whatiskevbumpin/static/css/main.24cb9c61.css.map",
+    "main.40e52bca.js.map": "/whatiskevbumpin/static/js/main.40e52bca.js.map",
+    "787.f6554922.chunk.js.map": "/whatiskevbumpin/static/js/787.f6554922.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc99604.css",
-    "static/js/main.6b8e6e9a.js"
+    "static/css/main.24cb9c61.css",
+    "static/js/main.40e52bca.js"
   ]
 }
