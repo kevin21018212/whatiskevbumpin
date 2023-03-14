@@ -186,6 +186,7 @@
     position: relative;
     width: 200%;
     margin: 3vw;
+    box-shadow: none;
   }
   .Body-Main-Top-Text {
     position: absolute;
