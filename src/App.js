@@ -6,6 +6,8 @@ import Head from './components/Head';
 import Body from './components/Body';
 import Footer from'./components/Footer';
 
+//
+//<Footer className="footer"></Footer>
 
 
 function App() {
@@ -16,13 +18,13 @@ function App() {
    
 
     <div className="App">
-   
+    
    
       <Head className="head"></Head>
       <Body className="body"></Body>
-      <Footer className="footer"></Footer>
- 
+     
     </div>
+
   );
 }
 

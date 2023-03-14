@@ -8,7 +8,6 @@
 import  { useState,useEffect} from 'react';
 
 
-import './toptrack.css';
 
     
 const albumArt = require('album-art')
@@ -25,7 +24,7 @@ const albumArt = require('album-art')
  
 
 
-    export const Gettoptracks = ({ userName, apiKey, imgorcover, }) => {
+    export const Gettoptracks = ({imgorcover, }) => {
         
         const [x, updateLfmData] = useState({});
         
@@ -45,7 +44,7 @@ const albumArt = require('album-art')
             );
         }, 1000);
   
-        }, [imgorcover,apiKey,userName]);
+        }, [imgorcover]);
         
 
      
@@ -62,24 +61,24 @@ const albumArt = require('album-art')
         const buildLastFmData = () => {
          
           
-         console.log(x);
+        
          if(x?.toptracks?.track[0]&&imgorcover==='1'){
-            const name=x?.toptracks?.track[0]?.name;  
-            const artist=x?.toptracks?.track[0]?.artist?.name;
+            const name0=x?.toptracks?.track[0]?.name;  
+            const artist0=x?.toptracks?.track[0]?.artist?.name;
             //<Gettrackimage trackname={name} artist={artist}/>
 
             const options = {
-                album: name
+                album: name0
             }
-            albumArt(artist, options, function (err, res) {
-              document.getElementById("imgid").src=res;
+            albumArt(artist0, options, function (err, res) {
+              document.getElementById("imgid0").src=res;
             })
 
           
             return <div className="middlestuff">
                 
-                 <p>{name}</p>
-                 <img  id="imgid" src="" alt=""></img>
+                 <div className='middlestuff-p'>{name0}</div>
+                 <img  id="imgid0" src="" alt=""></img>
              
              </div>;
            }
@@ -108,7 +107,7 @@ const albumArt = require('album-art')
 
 
             return <div div className="middlestuff"> 
-                <p>{name1}</p> 
+                <div className='middlestuff-p'>{name1}</div> 
                 <img  id="imgid1" src="" alt=""></img>
              </div>;
            }
@@ -132,7 +131,7 @@ const albumArt = require('album-art')
             })
             
             return <div div className="middlestuff"> 
-            <p>{name2}</p> 
+            <div className='middlestuff-p'>{name2}</div> 
             <img  id="imgid2" src="" alt=""></img>
          </div>;
        
