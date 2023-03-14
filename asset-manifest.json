@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/whatiskevbumpin/static/css/main.87a8eeb2.css",
-    "main.js": "/whatiskevbumpin/static/js/main.d098c074.js",
+    "main.css": "/whatiskevbumpin/static/css/main.d4e08397.css",
+    "main.js": "/whatiskevbumpin/static/js/main.a54dbfeb.js",
     "static/js/787.f6554922.chunk.js": "/whatiskevbumpin/static/js/787.f6554922.chunk.js",
     "static/media/playlist.png": "/whatiskevbumpin/static/media/playlist.6fb7997bf44e99267ede.png",
     "static/media/GothamMedium.ttf": "/whatiskevbumpin/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
     "static/media/GothamBold.ttf": "/whatiskevbumpin/static/media/GothamBold.108854bb27dee2dce854.ttf",
     "index.html": "/whatiskevbumpin/index.html",
-    "main.87a8eeb2.css.map": "/whatiskevbumpin/static/css/main.87a8eeb2.css.map",
-    "main.d098c074.js.map": "/whatiskevbumpin/static/js/main.d098c074.js.map",
+    "main.d4e08397.css.map": "/whatiskevbumpin/static/css/main.d4e08397.css.map",
+    "main.a54dbfeb.js.map": "/whatiskevbumpin/static/js/main.a54dbfeb.js.map",
     "787.f6554922.chunk.js.map": "/whatiskevbumpin/static/js/787.f6554922.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87a8eeb2.css",
-    "static/js/main.d098c074.js"
+    "static/css/main.d4e08397.css",
+    "static/js/main.a54dbfeb.js"
   ]
 }
