@@ -2,7 +2,7 @@
   "name": "whatiskevbumpin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kevin21018212.github.io/whatiskevbumpin",
+  "homepage": "https://kevin21018212.github.io/whatiskevbumpin/",
   "dependencies": {
     "@aaronlcj/use-last-fm": "^0.6.1-beta.3",
     "@statsfm/spotify.js": "^1.10.0",

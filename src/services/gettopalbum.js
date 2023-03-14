@@ -12,7 +12,10 @@ export const Gettopalbum = ({ userName, apiKey, imgorcover }) => {
   useEffect(() => {
     setTimeout(() => {
       fetch(
-        "http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=Kevin21012&api_key=b6937c7c238176d6899dc83bf146337f&format=json&limit=1"
+        `https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=${userName}&api_key=${apiKey}&limit=1&format=json`
+
+        
+      
       )
         .then((response) => {
           if (response.ok) {

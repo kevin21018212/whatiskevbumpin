@@ -26,20 +26,23 @@ function Body() {
 
        
             <div className="Body-Main-Top-Text box">
-      Top Artist: <Gettopalbum imgorcover="1" />
+      Top Artist: <Gettopalbum imgorcover="1"   userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f" />
          
             </div>
         
           
            
             <div className="Body-Main-Top-Playcount">
-          <span className="text2"> Playcount: <Gettopalbum imgorcover="3" /></span>
+          <span className="text2"> Playcount: <Gettopalbum imgorcover="3"    userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f"/></span>
               
             </div>
           
           </div>
           <div className="Body-Main-Top-Cover">
-            <Gettopalbum imgorcover="2" />
+            <Gettopalbum imgorcover="2"    userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f"/>
           </div>
         </div>
 
@@ -47,13 +50,16 @@ function Body() {
         
         <div className="Body-Main-Middle">
           <div className="Body-Main-Middle-CoverRight">
-            <Gettoptracks imgorcover="1" />
+            <Gettoptracks imgorcover="1"    userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f"/>
           </div>
           <div className="Body-Main-Middle-CoverMiddle">
-            <Gettoptracks imgorcover="2" />
+            <Gettoptracks imgorcover="2"   userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f" />
           </div>
           <div className="Body-Main-Middle-CoverLeft">
-            <Gettoptracks imgorcover="3" />
+            <Gettoptracks imgorcover="3"    userName="Kevin21012"
+                apiKey="b6937c7c238176d6899dc83bf146337f"/>
           </div>
         </div>
 

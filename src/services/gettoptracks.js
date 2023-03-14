@@ -24,13 +24,17 @@ const albumArt = require('album-art')
  
 
 
-    export const Gettoptracks = ({imgorcover, }) => {
+    export const Gettoptracks = ({imgorcover, userName,apiKey}) => {
         
         const [x, updateLfmData] = useState({});
         
         useEffect(() => {
             setTimeout(() => {
-            fetch('http://ws.audioscrobbler.com/2.0/?method=user.getTopTracks&user=Kevin21012&api_key=b6937c7c238176d6899dc83bf146337f&limit=3&period=1day&format=json')
+            fetch(
+              `http://ws.audioscrobbler.com/2.0/?method=user.getTopTracks&user=${userName}&api_key=${apiKey}&limit=3&period=1day&format=json`
+
+              
+              )
            
             .then(response => {
               if (response.ok) {
@@ -44,7 +48,7 @@ const albumArt = require('album-art')
             );
         }, 1000);
   
-        }, [imgorcover]);
+        }, [imgorcover,userName,apiKey]);
         
 
      
@@ -60,7 +64,7 @@ const albumArt = require('album-art')
 
         const buildLastFmData = () => {
          
-          
+      
         
          if(x?.toptracks?.track[0]&&imgorcover==='1'){
             const name0=x?.toptracks?.track[0]?.name;  
